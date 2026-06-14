@@ -2534,7 +2534,7 @@ export default function App() {
           <motion.div initial={{ opacity: 1 }} exit={{ opacity: 0, transition: { duration: 0.45 } }} className="fixed inset-0 z-[130] flex items-center justify-center bg-[#120c09]">
             <div className="space-y-8 text-center">
               <motion.div initial={{ scale: 0.94, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8 }} className="mx-auto w-fit">
-                <img src="/jr-logo.svg" alt="JR logo" className="h-32 w-auto" />
+                <img src="/jr-logo.png" alt="JR logo" className="h-32 w-auto" />
               </motion.div>
               <div className="space-y-3">
                 <p className="font-display text-4xl tracking-[0.22em] text-white">JEEV RUTHI</p>
