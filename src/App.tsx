@@ -526,7 +526,7 @@ function byId(id: string) {
 function LogoMark({ compact = false, className }: { compact?: boolean; className?: string }) {
   return (
     <div className={cn("flex items-center gap-3", className)}>
-      <img src="/jr-logo.svg" alt="JEEV RUTHI COLLECTIONS logo" className={compact ? "h-12 w-auto" : "h-16 w-auto"} />
+      <img src="/jr-logo.png" alt="JEEV RUTHI COLLECTIONS logo" className={compact ? "h-12 w-auto" : "h-16 w-auto"} />
       {!compact && (
         <div>
           <p className="font-display text-2xl font-semibold tracking-[0.24em] text-[#1a1a1a]">JEEV RUTHI</p>
